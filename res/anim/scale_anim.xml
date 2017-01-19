@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="3000"
+    android:fromXScale="0.5"
+    android:fromYScale="0.5"
+    android:interpolator="@android:anim/accelerate_interpolator"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:toXScale="2.0"
+    android:toYScale="2.0" />
+
+<!--
+	fromXScale:表示沿着x轴缩放的起始比例
+	toXScale:表示沿着x轴缩放的结束比例
+	
+	fromYScale:表示沿着y轴缩放的起始比例
+	toYScale:表示沿着y轴缩放的结束比例
+	
+	pivotX:缩放中心点的横向坐标(50%为控件的中心点)
+	pivotY:缩放中心点的纵向坐标(50%为控件的中心点)
+-->
